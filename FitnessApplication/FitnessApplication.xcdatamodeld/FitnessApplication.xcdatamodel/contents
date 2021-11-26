@@ -1,4 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19461" systemVersion="20G224" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Lost" representedClassName="Lost" syncable="YES" codeGenerationType="class">
+        <attribute name="lost" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="LostKcal" representedClassName="LostKcal" syncable="YES" codeGenerationType="class">
+        <attribute name="lostKcal" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Nutrit" representedClassName="Nutrit" syncable="YES" codeGenerationType="class">
+        <attribute name="carbohydrates" optional="YES" attributeType="String"/>
+        <attribute name="fat" optional="YES" attributeType="String"/>
+        <attribute name="kcal" optional="YES" attributeType="String"/>
+        <attribute name="protein" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Nutrition" representedClassName="Nutrition" syncable="YES" codeGenerationType="class">
+        <attribute name="carbohydrates" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="fat" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="kcal" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="protein" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Today" representedClassName="Today" syncable="YES" codeGenerationType="class">
+        <attribute name="eaten" optional="YES" attributeType="String"/>
+        <attribute name="lost" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Nutrition" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="LostKcal" positionX="111.6351928710938" positionY="-8.50567626953125" width="128" height="58"/>
+        <element name="Lost" positionX="54" positionY="45" width="128" height="44"/>
+        <element name="Nutrit" positionX="63" positionY="54" width="128" height="89"/>
+        <element name="Today" positionX="72" positionY="90" width="128" height="59"/>
+    </elements>
 </model>
