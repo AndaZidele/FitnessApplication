@@ -83,7 +83,7 @@ class HomeTableViewController: UITableViewController {
             self.deleteAllDataToday()
             self.deleteAllDataNutrit()
             self.deleteAllDataNutrition()
-            self.deleteAllDataToday()
+            self.deleteAllDataLost()
         }
         let cancelButton = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
         
