@@ -53,6 +53,19 @@ class Data {
         "Walking",
         "Working (with computer)"
     ]
+    var kcalSecond = [
+        "350",
+        "390",
+        "320",
+        "110",
+        "600",
+        "140",
+        "150",
+        "700",
+        "300",
+        "150"
+        
+    ]
     
     
     var imgSecondFood = [
@@ -139,18 +152,6 @@ class Data {
     
     
     
-    var kcalSecond = [
-        "300",
-        "400",
-        "500",
-        "600",
-        "700",
-        "800",
-        "900",
-        "1000",
-        "100",
-        "200"
-        
-    ]
+    
     
 }
